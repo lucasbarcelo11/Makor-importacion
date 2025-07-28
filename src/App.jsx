@@ -1,19 +1,19 @@
-import React from 'react';
-import NavBar from './components/NavBar';
-import './App.css';
-import Products from './components/Products';
-import { Footer } from './components/Footer';
-
+import React from "react";
+import NavBar from "./components/NavBar";
+import "./App.css";
+import Products from "./components/Products";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className='bg-gray-200 max-w-full'>
+    <div className="min-h-screen flex flex-col bg-cyan-900">
       <NavBar />
-      {/* gap debajo del navbar y centrado */}
-      <main className="pt-20 flex justify-center">
+
+      <main className="flex-grow">
         <Products />
       </main>
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }
