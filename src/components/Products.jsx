@@ -64,7 +64,7 @@ const Products = () => {
               <span className="text-white text-3xl font-bold">
                 ${producto.precio}
               </span>
-              <button className="bg-green-600 rounded-full w-14 h-14 flex items-center justify-center">
+              <button className="bg-green-600 rounded-full w-14 h-14 flex items-center justify-center transition duration-300 hover:ring-4 hover:ring-green-300 hover:ring-offset-2">
                 <FaWhatsapp className="text-white text-3xl" />
               </button>
             </div>
@@ -92,8 +92,8 @@ const Products = () => {
               <span className="text-2xl font-bold text-white">
                 ${selectedProduct.precio}
               </span>
-              <button className="bg-green-500 text-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-green-600">
-                <FaWhatsapp className="text-xl" />
+              <button className="bg-green-600 rounded-full w-14 h-14 flex items-center justify-center transition duration-300 hover:ring-4 hover:ring-green-300 hover:ring-offset-2">
+                <FaWhatsapp className="text-white text-3xl" />
               </button>
             </div>
           </div>
